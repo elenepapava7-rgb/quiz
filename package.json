@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch src/data/tours.json --port 3001"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
+    "@vitejs/plugin-react": "latest",
+    "json-server": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "latest",
+    "vite": "latest"
+  }
+}
